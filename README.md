@@ -1,11 +1,12 @@
 # YAML in Elm
 
-[![Tests Actions Status](https://github.com/MaybeJustJames/yaml/workflows/Tests/badge.svg)](https://github.com/MaybeJustJames/yaml/actions/) [![Elm package](https://img.shields.io/elm-package/v/MaybeJustJames/yaml.svg)](https://package.elm-lang.org/packages/MaybeJustJames/yaml/latest/)
+Convert between type-safe Gren values and [YAML](https://yaml.org).
 
-Convert between type-safe Elm values and [YAML](https://yaml.org).
+This is a WIP port of the [MaybeJustJames/yaml](https://package.elm-lang.org/packages/MaybeJustJames/yaml/) Elm package to Gren.
 
-This is _temporarily_ forked from
-[terezka/yaml](https://package.elm-lang.org/packages/terezka/yaml/latest/) while that package is dormant.
+TODO: migrate instructions below
+
+---
 
 ## Install
 

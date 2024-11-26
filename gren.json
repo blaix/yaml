@@ -1,0 +1,17 @@
+{
+    "type": "package",
+    "platform": "common",
+    "name": "blaix/yaml",
+    "summary": "Work with YAML in Gren",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "Yaml.Decode",
+        "Yaml.Encode"
+    ],
+    "gren-version": "0.4.5 <= v < 0.5.0",
+    "dependencies": {
+        "gren-lang/core": "5.1.1 <= v < 6.0.0",
+        "gren-lang/parser": "4.0.0 <= v < 5.0.0"
+    }
+}
