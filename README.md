@@ -1,4 +1,4 @@
-# YAML in Elm
+# YAML in Gren
 
 Convert between type-safe Gren values and [YAML](https://yaml.org).
 
