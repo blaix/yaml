@@ -1,6 +1,6 @@
-# YAML in Elm
+# YAML in Gren
 
-This package helps you convert between Elm values and YAML values.
+This package helps you convert between Gren values and YAML values.
 
 ## Example
 
@@ -54,4 +54,15 @@ and run your decoder with `Yaml.Decode.fromString (Yaml.Decode.list Woman.decode
 
 ## Work in progress
 
-This package was build to be able to parse data like [this](https://github.com/unitedstates/congress-legislators/blob/master/legislators-current.yaml), and even if it has a few more features (multiline strings, comments) than necessary to parse that file, YAML is a large and complex format, and this parser is still missing a lot of YAML features like references and various logical operations. It is also missing `Yaml.Encode`!
+This package was build to be able to parse data like [this](https://github.com/unitedstates/congress-legislators/blob/master/legislators-current.yaml), and even if it has a few more features (multiline strings, comments) than necessary to parse that file, YAML is a large and complex format, and this parser is still missing a lot of YAML features like references and various logical operations.
+It is also missing `Yaml.Encode`!
+
+## Local Development
+
+This project uses [devbox](https://www.jetify.com/devbox)
+
+### Running tests
+
+`devbox run test`
+
+or in a `devbox shell`: `just test`
